@@ -65,8 +65,9 @@ env -u CLAUDECODE claude -p "<WORKER_PROMPT>" \
   --dangerously-skip-permissions \
   --no-session-persistence \
   --allowedTools "Read,Write,Edit,Bash,Grep,Glob" \
+  --disable-slash-commands \
   --system-prompt "You are a YEET worker. Execute exactly ONE atomic action. Output ONLY a JSON object: {\"status\": \"success\" or \"fail\", \"action\": \"what you did\", \"result\": \"the outcome details\", \"files_changed\": [\"list of files\"]}. No preamble. No explanation. Just the JSON." \
-  --max-budget-usd 0.08
+  --max-budget-usd 0.50
 ```
 
 **Building the WORKER_PROMPT:**
