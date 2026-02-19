@@ -1,0 +1,12 @@
+{
+  "name": "yeet",
+  "description": "Forced single-action atomic execution with external lifecycle control. Kills subagents after exactly one atomic task and respawns them fresh. Zero context bloat.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Stride Systems",
+    "email": "brandon@stridesystems.net"
+  },
+  "repository": "https://github.com/stridesystems/yeet",
+  "license": "MIT",
+  "keywords": ["atomic", "execution", "agent-teams", "lifecycle", "context-management"]
+}
