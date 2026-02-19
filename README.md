@@ -38,7 +38,7 @@ Lead ──bash──→ claude -p "create test.js"  ──→ exits ──→ r
 **Kill mechanism:** Process exit. The `claude -p` command finishes and the OS reclaims everything. No context survives.
 
 **Safety valves:**
-- `--max-budget-usd 0.08` caps cost per worker
+- `--max-budget-usd 0.50` caps cost per worker
 - `--no-session-persistence` prevents disk state accumulation
 - `--allowedTools` restricts what the worker can touch
 
