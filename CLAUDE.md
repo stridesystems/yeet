@@ -1,5 +1,7 @@
 # CLAUDE.md — YEET Plugin
 
+**Status: ARCHIVED** — POC complete, archived during doctrine brownfield audit.
+
 > Forced single-action atomic execution for Claude Code
 
 ## What This Is
